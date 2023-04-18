@@ -26,8 +26,8 @@ const Contact = () => {
 
     emailJs
       .send(
-        "service-key",
-        "template-key",
+        "service_p389ehj",
+        "template_9c305bc",
         {
           from_name: form.name,
           to_name: "Kim",
@@ -35,7 +35,7 @@ const Contact = () => {
           to_email: "drkimutai@gmail.com",
           message: form.message,
         },
-        "public-key"
+        "YePebn7pbUEX29-Ux"
       )
       .then(
         () => {
